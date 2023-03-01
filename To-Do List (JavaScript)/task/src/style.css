@@ -1,0 +1,58 @@
+.delete-btn {
+    border-radius: 70%;
+    border: none;
+    background-color: red;
+    height: 2em;
+    width: 2em;
+    color: white;
+    float: right;
+}
+
+.content {
+    font-family: "Source Sans Pro", sans-serif;
+    width: 70vw;
+    margin: auto;
+}
+
+h1 {
+    text-align: center;
+}
+
+ul {
+    list-style: none;
+}
+
+li {
+    margin-top: 2%;
+}
+
+input[type='checkbox']{
+    float: left;
+    margin-left: 0;
+}
+
+#input-task {
+    border: 0;
+    outline: 0;
+    background: transparent;
+    border-bottom: 3px solid cadetblue;
+    width: 80%;
+    margin: 0;
+    padding: 1%;
+    box-sizing: border-box;
+}
+
+#input-task:focus {
+    border: 3px solid cadetblue;
+}
+
+#add-task-button {
+    margin: 0;
+    padding: 1%;
+    width: 19%;
+    color: white;
+    background-color: cadetblue;
+    border-radius: 1%;
+    border: 3px solid cadetblue;
+    box-sizing: border-box;
+}
